@@ -30,6 +30,6 @@ import matplotlib.pyplot as plt
 #plt.show()
 ind=0
 for i in range(515678478,515678489):
-    print (ind,"   ",i+0.2,"    ",fx( i+0.2 ),"    ",fy( i+0.2 ),"    ",fz( i+0.2 ),"    ",fvx( i+0.2 ),"    ",fvy( i+0.2 ),"   ",fvz( i+0.2 ),"   ")
+    print (ind,"   ",i+0.2,"    ",round(float(fx( i+0.2 )),3),"    ",round(float(fy( i+0.2 )),2),"    ",round(float(fz( i+0.2 )),2),"    ",round(float(fvx( i+0.2 )),3),"    ",round(float(fvy( i+0.2 )),3),"   ",round(float(fvz( i+0.2 )),3),"   ")
     ind=ind+1
 #1331 is sol id
